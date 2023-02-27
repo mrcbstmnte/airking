@@ -27,6 +27,12 @@ DB_USERNAME=<db username>
 
 ## Starting and running the application
 
+On initial setup, this command should be ran in order for the database to be created
+
+```bash
+docker compose run airking_api rails db:create
+```
+
 To start the Docker application, simply execute the following command while in the project's root folder:
 
 ```bash
